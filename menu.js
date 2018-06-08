@@ -25,7 +25,7 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
 var n = weekday[d.getDay()];
-
+// document.getElementById('demo').innerHTML = n;
 // console.log(n);
  if( n == "Monday") {
       console.log(mondayMenu);
