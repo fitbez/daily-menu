@@ -25,4 +25,18 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
 var n = weekday[d.getDay()];
-  
+
+// console.log(n);
+ if( n == "Monday") {
+      console.log(mondayMenu);
+
+    }
+else if( n == "Tuesday") {
+
+      console.log("today's breakefast is " + tuesdayMenu.breakefast);
+    } else {
+      console.log("try another date")
+    }
+};
+
+eachDayMenu();
